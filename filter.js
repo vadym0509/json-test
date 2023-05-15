@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Read JSON files
-const emailNames = fs.readFileSync('D:/projects/Vadym/test(json)/email_names.json');
-const emailNumbers = fs.readFileSync('D:/projects/Vadym/test(json)/email_numbers.json');
+const emailNames = fs.readFileSync('email_names.json');
+const emailNumbers = fs.readFileSync('email_numbers.json');
 
 // Parse JSON data
 const parsedEmailNames = JSON.parse(emailNames);
